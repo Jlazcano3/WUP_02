@@ -60,6 +60,11 @@ The average of c52 is 64.4 and the average of c39 is 51.5.
 
 <!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
 
+```{r}
+t.test(VitC~Cult,data=veggy)
+```
+
+P-value equals .000003405. This number is super small and the null hypothesis states that they both have the amount of vitman C. Method c52 is better than c39. 
 
 # Discussion and Conclusion
 
